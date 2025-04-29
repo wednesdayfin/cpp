@@ -9,7 +9,7 @@ int main() {
         cin >> number;
 
         if (number < 0) {
-            cout << "Negative number." << endl;
+            cout << "Negative number, exiting." << endl;
             break;
         }
 
@@ -18,7 +18,6 @@ int main() {
             continue;
         }
 
-        // Print the square of the number
         cout << "Square is " << number * number << endl;
     }
 
