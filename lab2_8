@@ -1,0 +1,10 @@
+int a = 100;: The variable a is initialized with the value 100.
+int& refA = a;: refA is a reference to a, meaning refA and a now refer to the same memory location.
+
+    refA = 30;: When you modify refA by assigning it the value 30, you're actually modifying the value stored in the memory location of a (since refA is a reference to a).
+
+As a result:
+
+    The value of a will be changed from 100 to 30.
+
+    After this, if you print the value of a, it will show 30.
