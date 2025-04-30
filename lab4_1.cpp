@@ -7,20 +7,16 @@ private:
     double imag;
 
 public:
-    // Constructor
     Complex(double r = 0.0, double i = 0.0) : real(r), imag(i) {}
 
-    // Overload + operator
     Complex operator+(const Complex& other) const {
         return Complex(real + other.real, imag + other.imag);
     }
 
-    // Overload - operator
     Complex operator-(const Complex& other) const {
         return Complex(real - other.real, imag - other.imag);
     }
 
-    // Overload / operator
     Complex operator/(const Complex& other) const {
         double denominator = other.real * other.real + other.imag * other.imag;
         return Complex(
@@ -29,11 +25,9 @@ public:
         );
     }
 
-    // Friend function to overload << operator
     friend ostream& operator<<(ostream& os, const Complex& c);
 };
 
-// Definition of friend function
 ostream& operator<<(ostream& os, const Complex& c) {
     os << c.real;
     if (c.imag >= 0) {
