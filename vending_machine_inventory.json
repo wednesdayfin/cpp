@@ -1,0 +1,35 @@
+{
+  "name": "Pocky",
+  "price": 3,
+  "expiry_date": "24082026",
+  "amount": 27}
+
+  {
+  "name": "Coca-Cola",
+  "price": 2,
+  "expiry_date": "30092027",
+  "amount": 45}
+
+  {
+  "name": "Euroshopper energy drink",
+  "price": 1,
+  "expiry_date": "31122028",
+  "amount": 24}
+
+  {
+  "name": "Karjala beer",
+  "price": 4,
+  "expiry_date": "30092027",
+  "amount": 41}
+
+  {
+  "name": "Nissin UFO noodle",
+  "price": 5,
+  "expiry_date": "15102029",
+  "amount": 45}
+
+  {
+  "name": "Scho-Ka-Kola",
+  "price": 5,
+  "expiry_date": "30092027",
+  "amount": 88}
