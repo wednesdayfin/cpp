@@ -2,7 +2,6 @@
 #include <fstream>
 #include <nlohmann/json.hpp>
 
-// for convenience
 using json = nlohmann::json;
 
 void print_json_file(const std::string& filename) {
