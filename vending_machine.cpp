@@ -50,6 +50,7 @@ void check_product_by_number(const std::string& filename, int product_number) {
 }
 
 int main() {
+    check_product_by_number(filename, product_number);
     print_json_file("data.json");
     return 0;
 }
